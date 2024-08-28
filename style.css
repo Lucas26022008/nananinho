@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: pink;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+  }
+  
+  .ingredients {
+    margin-bottom: 1em;
+  }
+  
+  .ingredients li {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .preparation {
+    margin-bottom: 1em;
+  }
+  
+  .additional-info {
+    margin-bottom: 1em;
+  }
+  
+  .additional-info p {
+    text-align: justify;
+  }
+  
+  .image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
