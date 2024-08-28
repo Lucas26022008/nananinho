@@ -3,7 +3,7 @@ body {
     color: pink;
     font-family: sans-serif;
     text-align: center;
-    border: dotted pink 5px ;
+    border: dotted pink auto ;
     border-radius: 45px;
   }
   
