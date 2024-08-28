@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    font-size: 4em; /* Aumenta o tamanho do título principal */
+    font-size: 4em;
     margin: 0;
 }
 
@@ -32,7 +32,7 @@ main {
 }
 
 h2 {
-    font-size: 2.5em; /* Aumenta o tamanho dos subtítulos */
+    font-size: 2.5em;
     color: #ff66b2;
     margin-top: 0;
 }
@@ -42,34 +42,20 @@ ul {
 }
 
 li {
-    font-size: 1.5em; /* Aumenta o tamanho da fonte dos itens da lista */
+    font-size: 1.2em;
     margin-bottom: 0.5em;
 }
 
 .texto {
-    flex: 1 1 45%;
-    padding-right: 20px;
     margin-bottom: 20px;
-        & p{
-            font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
-            text-align: justify;           
-        }
-        & li{
-            font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
-            text-align: justify;
-        }
 }
 
-.imagem {
-    text-align: center;
-    margin-top: 20px;
+.texto p {
+    text-align: left; /* Alinha o texto à esquerda */
 }
 
-.imagem img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #ff66b2;
-    border-radius: 10px;
+.texto ul {
+    text-align: left; /* Alinha a lista à esquerda */
 }
 
 footer {
@@ -79,7 +65,7 @@ footer {
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 1.5em; /* Aumenta o tamanho da fonte do rodapé */
+    font-size: 1.2em;
 }
 
 .secao {
@@ -92,11 +78,22 @@ footer {
     padding: 20px;
 }
 
-.imagem {
+.texto {
     flex: 1 1 45%;
-    text-align: center;
+    padding-right: 20px;
 }
 
-.texto h2{
-    font-size: 2em;
+.imagem {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+    text-align: right;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
 }
