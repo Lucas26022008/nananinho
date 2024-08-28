@@ -1,15 +1,15 @@
 body {
-    background-color: #1e1e1e; /* Cor de fundo mais escura para contraste */
-    color: #f8f8f8; /* Cor do texto mais clara */
+    background-color: #1e1e1e;
+    color: #f8f8f8;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6; /* Melhorar a legibilidade do texto */
+    line-height: 1.6;
 }
 
 header {
-    background-color: #ff66b2; /* Cor rosa mais suave */
-    color: #1e1e1e; /* Cor do texto escura para contraste */
+    background-color: #ff66b2;
+    color: #1e1e1e;
     padding: 20px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -17,22 +17,23 @@ header {
 }
 
 h1 {
-    font-size: 3em; /* Tamanho do título reduzido para uma melhor adaptação */
+    font-size: 3.5em; /* Aumenta o tamanho do título principal */
     margin: 0;
 }
 
 main {
-    background-color: #2c2c2c; /* Cor de fundo cinza escuro para contraste */
-    border: 3px solid #ff66b2; /* Cor da borda rosa suave */
+    background-color: #2c2c2c;
+    border: 3px solid #ff66b2;
     border-radius: 20px;
     padding: 20px;
     margin: 20px auto;
-    max-width: 900px; /* Largura ajustada para melhor visualização */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-    color: #ff66b2; /* Cor rosa suave para os subtítulos */
+    font-size: 2em; /* Aumenta o tamanho dos subtítulos */
+    color: #ff66b2;
     margin-top: 0;
 }
 
@@ -41,16 +42,18 @@ ul {
 }
 
 li {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos itens da lista */
     margin-bottom: 0.5em;
 }
 
 .informacao p {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte do parágrafo */
     text-align: justify;
 }
 
 .imagem {
-    text-align: center; /* Centralizar a imagem */
-    margin-top: 20px; /* Espaçamento acima da imagem */
+    text-align: center;
+    margin-top: 20px;
 }
 
 .imagem img {
@@ -67,25 +70,26 @@ footer {
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte do rodapé */
 }
 
 .secao {
-    max-width: 1000px; /* Largura ajustada */
+    max-width: 1000px;
     margin: 0 auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     display: flex;
-    flex-wrap: wrap; /* Permitir quebra de linha em telas menores */
+    flex-wrap: wrap;
     padding: 20px;
 }
 
 .texto {
-    flex: 1 1 45%; /* Ajuste flexível para o texto */
+    flex: 1 1 45%;
     padding-right: 20px;
-    margin-bottom: 20px; /* Espaçamento inferior */
+    margin-bottom: 20px;
 }
 
 .imagem {
-    flex: 1 1 45%; /* Ajuste flexível para a imagem */
+    flex: 1 1 45%;
     text-align: center;
 }
