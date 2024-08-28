@@ -32,19 +32,19 @@ h2 {
     color: pink;
 }
 
-.ingredients, .preparation, .additional-info {
+.ingredientes, .preparo, .informacao {
     margin-bottom: 1em;
 }
 
-.ingredients li {
+.ingredientes li {
     margin: 0.5em 0;
 }
 
-.additional-info p {
+.informacao p {
     text-align: justify;
 }
 
-.image img {
+.imagem img {
     max-width: 100%;
     height: auto;
     border: 2px solid pink;
