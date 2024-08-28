@@ -1,8 +1,10 @@
+/* style.css */
+
 body {
     background-color: black;
     color: pink;
     font-family: 'Arial', sans-serif;
-    text-align: center;
+    text-align: left; /* Alinhar o texto à esquerda */
     padding: 20px;
     margin: 0;
 }
@@ -13,14 +15,12 @@ header {
     padding: 20px;
     border-radius: 0 0 30px 30px;
     height: 3em;
-        & h1{
-            font-size: 3em;
-        }
 }
 
 h1 {
     font-size: 4em;
     margin: 0;
+    text-align: center; /* Centralizar o título */
 }
 
 main {
@@ -48,12 +48,16 @@ h2 {
     text-align: justify;
 }
 
+.imagem {
+    text-align: 
+}
+
 .imagem img {
     max-width: 100%;
     height: auto;
     border: 2px solid pink;
     border-radius: 10px;
-    margin: 0 100% 0 0;
+    margin: 0 0 0 auto;
 }
 
 footer {
@@ -61,4 +65,5 @@ footer {
     color: black;
     padding: 10px;
     border-radius: 20px;
+    text-align: center;
 }
