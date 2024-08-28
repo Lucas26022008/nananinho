@@ -1,40 +1,59 @@
 body {
     background-color: black;
     color: pink;
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
-    border: dotted pink auto ;
-    border-radius: 45px;
-  }
-  
-  h1 {
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    border-radius: 0 0 30px 30px;
+}
+
+h1 {
     font-size: 4em;
-    margin-bottom: 0.5em;
-  }
-  
-  .ingredients {
+    margin: 0;
+}
+
+main {
+    background-color: #222;
+    border: 3px solid pink;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: pink;
+}
+
+.ingredients, .preparation, .additional-info {
     margin-bottom: 1em;
-  }
-  
-  .ingredients li {
-    margin-left: 2em;
-    margin-bottom: 0.5em;
-  }
-  
-  .preparation {
-    margin-bottom: 1em;
-  }
-  
-  .additional-info {
-    margin-bottom: 1em;
-  }
-  
-  .additional-info p {
+}
+
+.ingredients li {
+    margin: 0.5em 0;
+}
+
+.additional-info p {
     text-align: justify;
-  }
-  
-  .image {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 2em;
-  }
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
