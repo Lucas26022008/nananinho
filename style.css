@@ -46,9 +46,18 @@ li {
     margin-bottom: 0.5em;
 }
 
-.texto p li {
-    font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
-    text-align: justify;
+.texto {
+    flex: 1 1 45%;
+    padding-right: 20px;
+    margin-bottom: 20px;
+        & p{
+            font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
+            text-align: justify;           
+        }
+        & li{
+            font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
+            text-align: justify;
+        }
 }
 
 .imagem {
@@ -81,12 +90,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-}
-
-.texto {
-    flex: 1 1 45%;
-    padding-right: 20px;
-    margin-bottom: 20px;
 }
 
 .imagem {
