@@ -91,3 +91,13 @@ footer {
     margin-bottom: 2em;
         }
 }
+
+.imagem {
+    flex: 1; /* Ocupa o espaço restante */
+    text-align: center; /* Centraliza a imagem horizontalmente */
+        & img{
+            max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 8px; /* Borda arredondada para a imagem */
+        }
+}
