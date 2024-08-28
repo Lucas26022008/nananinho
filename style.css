@@ -46,7 +46,7 @@ li {
     margin-bottom: 0.5em;
 }
 
-.texto p {
+.texto p li {
     font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
     text-align: justify;
 }
