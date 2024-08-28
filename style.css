@@ -3,6 +3,8 @@ body {
     color: pink;
     font-family: sans-serif;
     text-align: center;
+    border: dotted pink 5px ;
+    border-radius: 45px;
   }
   
   h1 {
