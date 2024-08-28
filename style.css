@@ -49,7 +49,7 @@ h2 {
 }
 
 .imagem {
-    text-align: 
+    text-align: left;
 }
 
 .imagem img {
@@ -66,4 +66,28 @@ footer {
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+}
+
+.secao{
+    max-width: 1200px; /* Largura máxima da seção */
+    margin: 0 auto; /* Centraliza a seção na página */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar a seção */
+    border-radius: 5px;
+
+    display: flex; /*flexbox para organizar os itens lado a lado */
+   
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+.texto {
+    flex: 1; /* Ocupa o espaço restante */
+    padding-right: 20px; /* Espaçamento à direita para separar da imagem */
+    align-self: center;
+    padding-left: 2em;
+        & h2 li p{
+            line-height: 2em;
+    margin-bottom: 2em;
+        }
 }
