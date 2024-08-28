@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    font-size: 3.5em; /* Aumenta o tamanho do título principal */
+    font-size: 4em; /* Aumenta o tamanho do título principal */
     margin: 0;
 }
 
@@ -32,7 +32,7 @@ main {
 }
 
 h2 {
-    font-size: 2em; /* Aumenta o tamanho dos subtítulos */
+    font-size: 2.5em; /* Aumenta o tamanho dos subtítulos */
     color: #ff66b2;
     margin-top: 0;
 }
@@ -42,12 +42,12 @@ ul {
 }
 
 li {
-    font-size: 1.2em; /* Aumenta o tamanho da fonte dos itens da lista */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte dos itens da lista */
     margin-bottom: 0.5em;
 }
 
-.informacao p {
-    font-size: 1.2em; /* Aumenta o tamanho da fonte do parágrafo */
+.texto p {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
     text-align: justify;
 }
 
@@ -70,7 +70,7 @@ footer {
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 1.2em; /* Aumenta o tamanho da fonte do rodapé */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte do rodapé */
 }
 
 .secao {
