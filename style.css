@@ -83,8 +83,7 @@ footer {
 .texto {
     flex: 1; /* Ocupa o espaço restante */
     padding-right: 20px; /* Espaçamento à direita para separar da imagem */
-    align-self: center;
-    padding-left: 2em;
+    padding-left: 1em;
         & h2 li p{
             line-height: 2em;
     margin-bottom: 2em;
