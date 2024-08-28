@@ -53,6 +53,7 @@ h2 {
     height: auto;
     border: 2px solid pink;
     border-radius: 10px;
+    margin: 0 100% 0 0;
 }
 
 footer {
