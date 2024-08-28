@@ -1,10 +1,8 @@
-/* style.css */
-
 body {
     background-color: black;
     color: pink;
     font-family: 'Arial', sans-serif;
-    text-align: left; /* Alinhar o texto à esquerda */
+    text-align: left;
     padding: 20px;
     margin: 0;
 }
@@ -20,7 +18,7 @@ header {
 h1 {
     font-size: 4em;
     margin: 0;
-    text-align: center; /* Centralizar o título */
+    text-align: center;
 }
 
 main {
@@ -69,33 +67,27 @@ footer {
 }
 
 .secao{
-    max-width: 1200px; /* Largura máxima da seção */
-    margin: 0 auto; /* Centraliza a seção na página */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar a seção */
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-
-    display: flex; /*flexbox para organizar os itens lado a lado */
-   
+    display: flex;
     padding: 10px;
 }
 
-
 .texto {
-    flex: 1; /* Ocupa o espaço restante */
-    padding-right: 20px; /* Espaçamento à direita para separar da imagem */
+    flex: 1;
+    padding-right: 20px;
     padding-left: 1em;
-        & h2 li p{
-            line-height: 2em;
-    margin-bottom: 2em;
-        }
 }
 
 .imagem {
-    flex: 1; /* Ocupa o espaço restante */
-    text-align: center; /* Centraliza a imagem horizontalmente */
-        & img{
-            max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
-            height: auto; /* Mantém a proporção da imagem */
-            border-radius: 8px; /* Borda arredondada para a imagem */
-        }
+    flex: 1;
+    text-align: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
