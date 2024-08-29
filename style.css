@@ -109,4 +109,5 @@ footer {
 .collum {
     flex-direction: column;
     text-align: left;
+    max-width: 200px;
 }
