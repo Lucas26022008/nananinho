@@ -95,10 +95,14 @@ footer {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 20px;
 }
 
 .texto h2 {
     font-size: 2em;
+}
+
+.teste{
+    flex-direction: column;
 }
