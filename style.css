@@ -108,5 +108,5 @@ footer {
 
 .collum {
     flex-direction: column;
-    margin-right: 50%;
+    text-align: left;
 }
