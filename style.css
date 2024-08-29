@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     display: flex;
@@ -29,10 +30,10 @@ main {
     border: 3px solid #ff66b2;
     border-radius: 20px;
     padding: 20px;
+    height: auto;
     margin: 20px auto;
     max-width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    flex: 1;
 }
 
 h2 {
@@ -85,18 +86,25 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #ff66b2;
-    color: #1e1e1e;
+    color: #00000000;
     text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
+    height: 1em;
 }
 
 .secao {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Adiciona espaçamento entre os itens */
     max-width: 100%;
     margin: 0 auto;
     border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
     padding: 20px;
+}
+
+.texto h2 {
+    font-size: 2em;
+}
+
+.collum {
+    flex-direction: column;
+    margin-right: 50%;
 }
