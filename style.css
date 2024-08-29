@@ -60,11 +60,9 @@ li {
 .texto p {
     font-size: 1.5em;
     text-align: justify;
-    max-width: 200px;
 }
 
 .texto li {
-    max-width: 200px;
     font-size: 1.5em;
     text-align: justify;
 }
