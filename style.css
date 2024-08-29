@@ -16,8 +16,6 @@ header {
     background-color: #ff66b2;
     color: #1e1e1e;
     padding: 20px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
     text-align: center;
 }
 
@@ -85,7 +83,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: #ff66b2;
     color: white;
     text-align: center;
     height: 1em;
