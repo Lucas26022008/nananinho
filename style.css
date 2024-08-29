@@ -14,11 +14,10 @@ header {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     text-align: center;
-}
-
-h1 {
-    font-size: 4em;
-    margin: 0;
+        & h1{
+            font-size: 4em;
+            margin: 0;
+        }
 }
 
 main {
