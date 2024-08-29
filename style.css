@@ -81,13 +81,14 @@ li {
 }
 
 footer {
-    background-color: #ff66b2;
-    color: #1e1e1e;
-    padding: 10px;
-    border-radius: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
     text-align: center;
-    font-size: 1.5em;
-    max-height: 25px;
+  
 }
 
 /* footer p {
